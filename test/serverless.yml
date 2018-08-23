@@ -1,0 +1,10 @@
+service:
+  name: panda
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  create:
+    handler: src/handler.create
